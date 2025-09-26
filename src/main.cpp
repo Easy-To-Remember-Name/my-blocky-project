@@ -17,7 +17,7 @@
 
 #include "../include/libs/SimplexNoise.h"
 
-// Simple texture loading function 
+// texture loading function 
     unsigned int loadTexture(const char* path) {
     unsigned int textureID;
     glGenTextures(1, &textureID);
